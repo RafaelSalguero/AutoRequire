@@ -56,7 +56,7 @@ if (args.length < 3) {
     console.log("- input[N] : Path of input folders to scan");
     console.log();
     console.log("Example:");
-    console.log('node autoreq.js "main.js" "." "test\\result\\autoreq.js" "."');
+    console.log('node autoreq.js "." "main.js" "." "test\\result\\autoreq.js" "."');
 }
 else {
     var fileName = args[0];

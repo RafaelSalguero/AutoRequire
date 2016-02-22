@@ -81,7 +81,7 @@ if (args.length  < 3)
     
     console.log ();
     console.log ("Example:");
-    console.log ('node autoreq.js "main.js" "." "test\\result\\autoreq.js" "."');
+    console.log ('node autoreq.js "." "main.js" "." "test\\result\\autoreq.js" "."');
 }
 else 
 {
