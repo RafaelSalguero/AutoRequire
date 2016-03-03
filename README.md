@@ -36,3 +36,7 @@ require('features\clients\main');
 
 Allowing us requiring the `deps.js` file that contains all main dependencies to each feature, of course,
 each one of these `main.js` file could have its own dependencies, controllers, services, or any other component that should be loaded when the application starts
+
+#How to test
+- Set `cd` to project directory
+- Run `node js\lib\autoreq.js main.js . test\result\main.ts test`
