@@ -82,7 +82,7 @@ else {
     names.forEach(function (x) {
         var filePath = path.resolve(base, x);
         if (filePath == outputPath) {
-            data += "//Ignored " + x + " because its file name matches with the output file";
+            data += "//Ignored " + x + " because its file name matches with the output file\n";
         }
         else {
             if (path.extname(output) == ".js")

@@ -8,4 +8,4 @@
 require('test\clients\main');
 require('test\login\main');
 require('test\products\main');
-require('test\result\main');
+//Ignored test\result\main because its file name matches with the output file 

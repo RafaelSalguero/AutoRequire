@@ -1,6 +1,6 @@
 {
   "name": "autoreq",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generate .js or .ts files containing requires for a collection of files",
   "main": "lib\\autoreq.js",
   "directories": {
