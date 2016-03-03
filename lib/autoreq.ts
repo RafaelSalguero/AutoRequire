@@ -105,7 +105,6 @@ else
     else 
         names.forEach(x=> data += "import '"  + x + "';\n");
     
-    console.log(data);
     fs.writeFileSync(output,  data);
 }
 
