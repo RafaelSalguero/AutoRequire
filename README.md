@@ -28,10 +28,10 @@ index.html
 Running `node autoreq.js "." main.js deps.js "."` would generate the `deps.js` files requiring all files in `"."` (base path) that are named `main.js` with the following content:
 
 ```
-require('features\login\main');
-require('features\home\main');
-require('features\products\main');
-require('features\clients\main');
+require('features/login/main');
+require('features/home/main');
+require('features/products/main');
+require('features/clients/main');
 
 ```
 
