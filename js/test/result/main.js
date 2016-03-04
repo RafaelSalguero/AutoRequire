@@ -5,7 +5,6 @@
 //basePath   : .
 //output     : test\result\main.ts
 //inputs     : test
-require('test\clients\main');
-require('test\login\main');
-require('test\products\main');
-//Ignored test\result\main because its file name matches with the output file 
+require('test/clients\main');
+require('test/login\main');
+require('test/products\main');

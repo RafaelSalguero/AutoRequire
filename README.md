@@ -1,6 +1,8 @@
 #autoreq.js
 A node program that generate a single .js file requiring all files that matches a given file name
 
+Checkout the [Typescript skeleton](https://github.com/RafaelSalguero/AngularTypescriptSkeleton) for a real world example of this library
+
 This tool is intended for projects with *feature based* folders in which each feature is responsable for its own dependencies.
 
 **Example:**
