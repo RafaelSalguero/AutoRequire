@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '1.0.8' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 error version No valid package.json found
+5 verbose stack Error: Error: ENOENT: no such file or directory, open 'c:\Users\rafael\Documents\Web\node\package.json'
+5 verbose stack     at ReadFileContext.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\version.js:110:23)
+5 verbose stack     at ReadFileContext.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16)
+5 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:324:13)
+6 verbose cwd c:\Users\rafael\Documents\Web\node
+7 error Windows_NT 10.0.10240
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "version" "1.0.8"
+9 error node v5.6.0
+10 error npm  v3.6.0
+11 error code [ 'Error: ENOENT',
+11 error code   'ENOENT',
+11 error code   index: 0,
+11 error code   input: 'Error: ENOENT: no such file or directory, open \'c:\\Users\\rafael\\Documents\\Web\\node\\package.json\'' ]
+12 error Error: ENOENT: no such file or directory, open 'c:\Users\rafael\Documents\Web\node\package.json'
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
