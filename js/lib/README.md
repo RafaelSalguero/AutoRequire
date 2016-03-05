@@ -12,11 +12,11 @@ npm install autoreq
 ```
 **Run without arguments for help:**
 ```
-**node node_modules/autoreq/autoreq.js** *[filename]* *[basePath]* 
+node node_modules/autoreq/autoreq.js
 ```
 **Or with arguments**
 ```
-**node node_modules/autoreq/autoreq.js** *[filename]* *[basePath]* *[outputFile]* *[inputFolders]*
+node node_modules/autoreq/autoreq.js [filename] [basePath] [outputFile] [inputFolders]
 ```
 
 **Example:**
