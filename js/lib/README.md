@@ -5,6 +5,20 @@ Checkout the [Typescript skeleton](https://github.com/RafaelSalguero/AngularType
 
 This tool is intended for projects with *feature based* folders in which each feature is responsable for its own dependencies.
 
+
+##Install me!
+```
+npm install autoreq 
+```
+**Run without arguments for help:**
+```
+**node node_modules/autoreq/autoreq.js** *[filename]* *[basePath]* 
+```
+**Or with arguments**
+```
+**node node_modules/autoreq/autoreq.js** *[filename]* *[basePath]* *[outputFile]* *[inputFolders]*
+```
+
 **Example:**
 
 Suppose the following folder structure and that each feature contains a **view** (html) and a **controller** (.js / .ts)
@@ -37,7 +51,3 @@ require('features/clients/main');
 
 Allowing us requiring the `deps.js` file that contains all main dependencies to each feature, of course,
 each one of these `main.js` file could have its own dependencies, controllers, services, or any other component that should be loaded when the application starts
-
-#How to test
-- Set `cd` to project directory
-- Run `node js\lib\autoreq.js main.js . test\result\main.ts test`
